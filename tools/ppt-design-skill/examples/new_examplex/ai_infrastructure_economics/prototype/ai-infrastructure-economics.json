@@ -1,0 +1,18 @@
+{
+  "prototype_id": "ai-infrastructure-economics",
+  "case_id": "ai-infrastructure-economics",
+  "case_root": "examples/new_examplex/ai_infrastructure_economics",
+  "slide_ids": ["P01", "P05", "P06", "P08", "P09", "P10", "P11", "P12"],
+  "pack_id": "editorial-infrastructure-ledger",
+  "composition_ids": ["c1-01", "c2-01", "c3-01", "c4-01"],
+  "page_roles": ["cover", "constraint-map", "mechanism", "flow", "risk-matrix", "comparison", "scorecard", "close"],
+  "summary": "Warm editorial infrastructure case with a physical-stack cover, sequence-led constraint map, field-based risk matrix, and rule-led decision pages.",
+  "source_paths": ["output/ai_infrastructure_economics.pptx"],
+  "preview_paths": ["rendered/slide01.png", "rendered/slide05.png", "rendered/slide09.png", "rendered/ai_infrastructure_economics.pdf"],
+  "recipe_paths": ["prototype/recipe.md"],
+  "object_map_paths": ["prototype/object-map.md"],
+  "license_status": "verified",
+  "context_allowed": false,
+  "redaction_status": "not_required",
+  "extensions": {"provenance": {"status": "verified", "method": "source_authoritative_rebuild", "rebuild_count": 2}, "excluded_from_reference_set": true, "exclusion_reason": "composition revision abandoned after production failure"}
+}

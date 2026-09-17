@@ -1,0 +1,72 @@
+{
+  "skill": "ppt-skill",
+  "version": "1.0.0",
+  "children": [
+    {
+      "name": "taskpkg-cyberppt",
+      "path": "references/subskills/taskpkg-cyberppt.md",
+      "sha256": "170F9941D257F52DCB9B5A0731C656E0D8920E08DCAEB06AC5CEEF7CB6C182EE",
+      "bytes": 79862
+    },
+    {
+      "name": "taskpkg-docx-community",
+      "path": "references/subskills/taskpkg-docx-community.md",
+      "sha256": "5B9BA52C1172B3675E8139B9C0C9B1959D0BA85D60375B9AB9269B8E9E4FF67E",
+      "bytes": 7244
+    },
+    {
+      "name": "taskpkg-docx-official",
+      "path": "references/subskills/taskpkg-docx-official.md",
+      "sha256": "8017469EA95FB7D28225C62DAF8E2F3492A7B516FC64C18C28977CBF8980B7FE",
+      "bytes": 6911
+    },
+    {
+      "name": "taskpkg-imagegen",
+      "path": "references/subskills/taskpkg-imagegen.md",
+      "sha256": "6CCECC0DAA35A914C76D53AD5433CCC1FD218C1EA68158F3139E88A7166DAD9E",
+      "bytes": 27315
+    },
+    {
+      "name": "taskpkg-pdf-official",
+      "path": "references/subskills/taskpkg-pdf-official.md",
+      "sha256": "9F78B8359FBD4943AD260A7A1E436E5A96503406D6C34E99F69223D647D85B9C",
+      "bytes": 8072
+    },
+    {
+      "name": "taskpkg-pptx-community",
+      "path": "references/subskills/taskpkg-pptx-community.md",
+      "sha256": "4F86472244005D325CBFC2F1E811A664F8614318AB3E8BF143B8A5BD06CC4855",
+      "bytes": 21129
+    },
+    {
+      "name": "taskpkg-pptx-official",
+      "path": "references/subskills/taskpkg-pptx-official.md",
+      "sha256": "A7FF03E2C85B636F55232A6B1555F5DD90216B7A1A359AB289D8364E6ACBC6A0",
+      "bytes": 20796
+    },
+    {
+      "name": "taskpkg-screenshot",
+      "path": "references/subskills/taskpkg-screenshot.md",
+      "sha256": "081935A6A163277537D46365F49D6B4A3CB40B4748347E7E88759C5927FA8CF5",
+      "bytes": 7754
+    },
+    {
+      "name": "taskpkg-skill-eval-harness",
+      "path": "references/subskills/taskpkg-skill-eval-harness.md",
+      "sha256": "415439800407242C4360B4F9257C1B30A798E0A7D1474C2779D374AE26845183",
+      "bytes": 51324
+    },
+    {
+      "name": "taskpkg-skill-harness",
+      "path": "references/subskills/taskpkg-skill-harness.md",
+      "sha256": "DEE3DC2E7084A15E163C8AEA78082331F4A0C3A22172291E2BAE5E6B222A9018",
+      "bytes": 16796
+    },
+    {
+      "name": "taskpkg-uiux-pro-max",
+      "path": "references/subskills/taskpkg-uiux-pro-max.md",
+      "sha256": "88AADD21220542083A455E373BD162FFE7843266A71F06F4D837BB3B34F9C9C7",
+      "bytes": 16183
+    }
+  ]
+}

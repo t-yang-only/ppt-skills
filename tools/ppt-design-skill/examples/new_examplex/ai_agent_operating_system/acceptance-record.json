@@ -1,0 +1,19 @@
+{
+  "record_id": "primary-ai-agent-operating-system-2026-09-05",
+  "target_id": "ai-agent-operating-system",
+  "criteria": [
+    {"id": "visual_thesis", "name": "Visual thesis", "score": 2, "evidence": ["The 12-page deck sustains the dark technical editorial system with blueprint grid, semantic signal colors, spatial boundaries, and a restrained component language."]},
+    {"id": "composition", "name": "Composition", "score": 2, "evidence": ["P01 cover, P02 thesis, P03 matrix, P04 planes, P05 sequence, P06 routing, P07 fan-out, P08 hierarchy, P09 loop, P10 governance, P11 trace, and P12 close use distinct page roles."]},
+    {"id": "material", "name": "Material / domain fit", "score": 2, "evidence": ["Native architecture diagrams, decision matrix, routing fork, hierarchy bus, feedback loop, and observability timeline fit an engineering-leader audience."]},
+    {"id": "readability", "name": "Readability", "score": 2, "evidence": ["Full PNG review corrected title spacing, P03 warning-panel spacing, P04 title wrapping, P06 lane height, and P11 trace-node numbering; no clipping remained in the final review."]},
+    {"id": "editability", "name": "Editability", "score": 2, "evidence": ["Structural inspection shows native text boxes, auto-shapes, connectors, and editable diagram components rather than rasterized pages."]},
+    {"id": "reproducibility", "name": "Reproducibility", "score": 2, "evidence": ["build.py, PPTX, PDF, PNG renders, Recipe, object map, and source-authoritative provenance record are present; rebuild count is 2."]}
+  ],
+  "score": 12,
+  "reviewer": "primary-reviewer",
+  "second_reviewer": "user-approved",
+  "evidence": ["Full 12-page deck rendered through PPTX -> PDF -> PNG and visually reviewed after material page-level revisions.", "The user explicitly approved this version as the formal ai-agent-operating-system case baseline."],
+  "status": "PASS",
+  "revision_record": "Rebuilt the cover, thesis, decision matrix, routing, sequence, architecture hierarchy, and trace presentation; removed boxed page headers and re-rendered after each material revision.",
+  "extensions": {"page_score_status": "PRIMARY_PAGE_SCORES_RECORDED", "visual_benchmark": true}
+}

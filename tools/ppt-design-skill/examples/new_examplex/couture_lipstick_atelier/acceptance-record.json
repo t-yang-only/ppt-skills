@@ -1,0 +1,24 @@
+{
+  "record_id": "couture-color-benchmark-2026-09-06",
+  "target_id": "couture-lipstick-atelier",
+  "criteria": [
+    {"id": "visual_thesis", "name": "Visual thesis", "score": 2, "evidence": ["All ten pages sustain a nocturnal, tactile luxury-beauty editorial read with a clear focal point."]},
+    {"id": "composition", "name": "Composition", "score": 2, "evidence": ["The page roles vary across cinematic image, proposition, swatch system, object grammar, material study, gesture, collection, ritual, release, and coda."]},
+    {"id": "material", "name": "Material / domain fit", "score": 2, "evidence": ["Oxblood, bone, champagne, macro lacquer, warm metal, portrait, hand, and application gesture all support the couture beauty domain."]},
+    {"id": "readability", "name": "Readability", "score": 2, "evidence": ["The existing 1280x720 PNG set and contact sheet were visually inspected; no clipping, stretching, or contrast failure was found."]},
+    {"id": "editability", "name": "Editability", "score": 2, "evidence": ["Structural inspection confirms native text boxes, auto-shapes, pictures, and SVG freeforms; swatches, silhouettes, labels, and timeline remain editable."]},
+    {"id": "reproducibility", "name": "Reproducibility", "score": 2, "evidence": ["build.py regenerates the 10-slide PPTX; theme-lock.yaml, design-baseline.md, acceptance-contract.md, and rendered assets are present."]}
+  ],
+  "score": 12,
+  "reviewer": "primary-reviewer",
+  "evidence": [
+    "Runtime and package checks passed.",
+    "PPTX regenerated successfully with 10 slides.",
+    "inspect_pptx.py confirms native editable structure on every slide.",
+    "Reviewed render set is retained because the latest build changed only benchmark documentation, not slide geometry or copy.",
+    "theme-lock.yaml and design-baseline.md formalize the transferable system."
+  ],
+  "status": "PASS",
+  "revision_record": "Promoted the existing reviewed case into a benchmark package by adding a resolved theme lock, transfer rules, page-role map, and schema-valid acceptance record. No visual redesign was needed after inspection.",
+  "extensions": {"page_count": 10, "benchmark": true, "render_status": "REVIEWED_RENDER_RETAINED"}
+}

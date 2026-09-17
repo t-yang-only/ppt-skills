@@ -1,0 +1,30 @@
+{
+  "name": "ppt-design-skill",
+  "version": "1.5",
+  "description": "Brief-first, visually reviewed PowerPoint design workflow powered by the published pptx-designer Python library.",
+  "license": "MIT",
+  "entrypoint": "skill/SKILL.md",
+  "runtime": {
+    "python": ">=3.10",
+    "pythonPackage": "pptx-designer",
+    "renderPath": "PPTX -> PDF -> PNG",
+    "preferredRenderer": "Microsoft PowerPoint COM",
+    "fallbackRenderer": "LibreOffice + Poppler"
+  },
+  "modes": [
+    "Build Mode",
+    "FreeStyle Mode",
+    "VI Build Mode"
+  ],
+  "features": [
+    "requirements confirmation",
+    "page structure design",
+    "visual direction design",
+    "editable PPTX generation",
+    "template and brand-compliant generation",
+    "PNG visual review",
+    "iterative revision",
+    "versioned theme locks",
+    "protected VI theme merging"
+  ]
+}

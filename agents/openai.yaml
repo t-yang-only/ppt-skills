@@ -1,0 +1,7 @@
+interface:
+  display_name: "PPT Skill"
+  short_description: "End-to-end PPTX, DOCX, PDF production and QA"
+  brand_color: "#0B8F87"
+  default_prompt: "Use $ppt-skill to create, revise, render, audit, and package a presentation deliverable."
+policy:
+  allow_implicit_invocation: true

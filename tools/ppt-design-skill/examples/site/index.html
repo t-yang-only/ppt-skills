@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="PPT Design Skill 精选案例画廊：原生可编辑 PowerPoint 演示设计。">
+  <title>PPT Design Skill · 案例画廊</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="palette.css">
+  <link rel="icon" type="image/svg+xml" href="assets/brand/logo-pure-mark.svg">
+</head>
+<body>
+  <header class="header">
+    <div class="header-content">
+      <div class="logo" aria-hidden="true"><img src="assets/brand/logo-pure-mark.svg" alt=""></div>
+      <div class="eyebrow">开源 · MIT</div>
+      <h1>PPT Design Skill</h1>
+      <p>AI 驱动的 PowerPoint 设计工作流：从需求和视觉方向出发，生成真正原生可编辑的 PPTX，而不是一组图片。</p>
+      <div class="header-cta"><a href="https://github.com/sunchaokun/PPT-Design-Skill" class="cta-btn primary" target="_blank" rel="noreferrer">查看 GitHub ↗</a><a href="#gallery" class="cta-btn secondary">浏览案例 ↓</a></div>
+      <div class="stats"><div class="stat"><div class="stat-value" id="examples-count">—</div><div class="stat-label">案例</div></div><div class="stat"><div class="stat-value" id="pages-count">—</div><div class="stat-label">页面</div></div><div class="stat"><div class="stat-value" id="modes-count">3</div><div class="stat-label">生成模式</div></div></div>
+    </div>
+  </header>
+
+  <nav class="nav"><div class="nav-content" id="filters"></div></nav>
+  <main id="gallery" class="main"><div class="section-title"><span>精选案例</span><span class="count">原生可编辑 · 视觉方向驱动</span></div><div class="projects-grid" id="projects-grid" aria-live="polite"></div></main>
+  <footer class="footer"><div class="footer-links"><a href="https://github.com/sunchaokun/PPT-Design-Skill" target="_blank" rel="noreferrer">GitHub</a><a href="viewer.html?project=louvre-abudhabi">案例查看器</a><a href="https://pypi.org/project/pptx-designer/" target="_blank" rel="noreferrer">pptx-designer</a></div><p class="footer-copy">PPT Design Skill · 原生可编辑 PowerPoint 设计工作流</p></footer>
+  <script src="data/examples.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

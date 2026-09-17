@@ -1,0 +1,68 @@
+version: 1
+name: couture-color-objects-of-desire
+status: benchmark
+visual_thesis: >-
+  Lipstick is treated as a couture object: a precise red form designed through
+  light, material, gesture, and ritual.
+domain: luxury beauty editorial
+audience: portfolio reviewers and premium beauty/fashion clients
+dials:
+  variance: 7
+  motion: 2
+  density: 5
+palette:
+  ink: '#160B10'
+  aubergine: '#261017'
+  oxblood: '#5C0A21'
+  cherry: '#8E1633'
+  rose: '#C98C88'
+  bone: '#F3EADF'
+  champagne: '#C8A76C'
+  smoke: '#6D5559'
+  black: '#080607'
+  white: '#FFF9F2'
+  pale: '#DECBC1'
+typography:
+  display: Georgia
+  utility: Arial Narrow
+  body: Arial
+  display_role: restrained editorial serif, oversized only for the main idea
+  utility_role: small catalogue labels, page indices, and system annotations
+grid:
+  canvas: 13.333 x 7.5 in, 16:9
+  outer_margin: 0.56 in
+  rule_inset: 0.56 in
+  columns: 12
+  footer_baseline: 7.05 in
+image_treatment:
+  crop: cover-fit, hard-edged, never stretched
+  grade: nocturnal, tactile, warm metal, controlled contrast
+  narrative_roles:
+    - full-bleed editorial portrait
+    - credible product-in-use gesture
+    - macro material study
+    - dressing-table ritual still life
+editable_objects:
+  - headlines and all visible copy
+  - shade swatches and labels
+  - lipstick silhouettes and callouts
+  - editorial release timeline
+  - SVG gesture traces
+page_archetypes:
+  - cinematic cover
+  - proposition split
+  - chromatic wardrobe
+  - object grammar
+  - material study
+  - gesture manifesto
+  - collection system
+  - ritual still life
+  - editorial sequence
+  - typographic coda
+forbidden_patterns:
+  - generic cosmetics card grids
+  - fabricated commercial claims or metrics
+  - stretched imagery
+  - unrelated palette changes
+  - decorative SVG without narrative work
+  - dense body copy or tiny unreadable text

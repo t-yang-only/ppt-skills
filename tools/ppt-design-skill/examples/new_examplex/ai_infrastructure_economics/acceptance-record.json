@@ -1,0 +1,19 @@
+{
+  "record_id": "primary-ai-infrastructure-economics-2026-09-05",
+  "target_id": "ai-infrastructure-economics",
+  "criteria": [
+    {"id": "visual_thesis", "name": "Visual thesis", "score": 2, "evidence": ["Slides 1-12 sustain the warm paper, cobalt evidence, vermilion constraint, and green operating-leverage system."]},
+    {"id": "composition", "name": "Composition", "score": 0, "evidence": ["The intended composition replacement was abandoned after production failure; the current output is not accepted as a benchmark composition."]},
+    {"id": "material", "name": "Material / domain fit", "score": 1, "evidence": ["Warm paper and physical-stack geometry fit the domain, but the unresolved composition failure weakens the intended editorial data language."]},
+    {"id": "readability", "name": "Readability", "score": 2, "evidence": ["Rendered PNG review found no clipping, title/subtitle collision, page-number split, or presentation-scale text failure on the reviewed pages."]},
+    {"id": "editability", "name": "Editability", "score": 1, "evidence": ["Structural inspection shows native text boxes and auto-shapes; the objects are editable, but the abandoned composition revision remains unresolved."]},
+    {"id": "reproducibility", "name": "Reproducibility", "score": 2, "evidence": ["build.py, PPTX, PDF, PNG renders, Recipe, object map, and provenance record are present; source-authoritative rebuild count is 2."]}
+  ],
+  "score": 8,
+  "reviewer": "primary-reviewer",
+  "second_reviewer": "not-applicable-excluded-case",
+  "evidence": ["The case remains available as a historical exploratory output and is structurally render-ready.", "The intended composition revision was abandoned after production failure, so the case is excluded from the formal visual benchmark and regression reference set."],
+  "status": "BLOCKED",
+  "revision_record": "Excluded from the formal benchmark set by project decision. Preserve files and history for future recovery, but do not use this case as evidence of completed composition quality.",
+  "extensions": {"page_score_status": "HISTORICAL_ONLY", "reference_candidate": false, "visual_benchmark": false, "excluded_from_reference_set": true}
+}

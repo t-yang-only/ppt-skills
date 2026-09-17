@@ -1,0 +1,77 @@
+# ============================================
+# Dependencies
+# ============================================
+# Node.js dependencies - 必须在 .gitignore 里
+# 用户首次使用前需要 `cd assets && npm install`
+**/node_modules/
+node_modules/
+
+# ============================================
+# Build outputs - 编译产物不应进版本控制
+# ============================================
+# PptxGenJS 编译出来的 PPTX
+output/
+output_*/
+output-*/
+*.pptx
+*.ppt
+# 排除整个目录,但允许 README.md 之类的说明文件
+!output/README.md
+!output_*/README.md
+
+# SVG 中间产物
+svg_output/
+svg_output_*/
+svg_v2/
+*.png
+!templates/**/*.png
+!references/cases/**/*.png
+
+# ============================================
+# OS / IDE junk
+# ============================================
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+$RECYCLE.BIN/
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*~
+
+# ============================================
+# Logs and temp
+# ============================================
+*.log
+logs/
+*.tmp
+*.bak
+*.backup
+.cache/
+.pytest_cache/
+__pycache__/
+*.pyc
+*.pyo
+
+# ============================================
+# Environment
+# ============================================
+.env
+.env.local
+.env.*.local
+
+# ============================================
+# 技能特定 - 真实项目案例的 junction
+# ============================================
+# real-project-example/node_modules 是 junction,会被 **/node_modules/ 覆盖
+# 但作为安全网,显式排除
+references/cases/*/node_modules/
+
+# ============================================
+# Trae IDE
+# ============================================
+.trae/

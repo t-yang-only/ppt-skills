@@ -1,0 +1,99 @@
+[
+  {
+    "id": "ai-agent-operating-system",
+    "title": "AI Agent Operating System",
+    "subtitle": "技术编辑型 · 从提示链到受控自治",
+    "category": "技术叙事",
+    "year": "2026",
+    "direction": "深色系统蓝图",
+    "mode": "Build Mode",
+    "description": "一组以系统架构为核心的技术编辑型演示，用深色网格、荧光色线索和分层流程表达 AI Agent 的运行机制。",
+    "path": "assets/ai-agent-operating-system",
+    "pptx": "downloads/ai_agent_operating_system.pptx",
+    "pdf": "downloads/ai_agent_operating_system.pdf",
+    "slides": [
+      {"file":"slide01.png","label":"系统蓝图"},{"file":"slide02.png","label":"用户意图"},{"file":"slide03.png","label":"控制平面"},{"file":"slide04.png","label":"执行平面"},{"file":"slide05.png","label":"状态与记忆"},{"file":"slide06.png","label":"工具层"},{"file":"slide07.png","label":"评估循环"},{"file":"slide08.png","label":"安全边界"},{"file":"slide09.png","label":"架构选择"},{"file":"slide10.png","label":"决策框架"},{"file":"slide11.png","label":"最小系统"},{"file":"slide12.png","label":"结论"}
+    ]
+  },
+  {
+    "id": "ai-infrastructure-economics",
+    "title": "AI Infrastructure Economics",
+    "subtitle": "数据编辑型 · 资本、算力与物理堆栈",
+    "category": "数据叙事",
+    "year": "2026",
+    "status": "案例保留 · 非正式 benchmark",
+    "direction": "纸张与基础设施账本",
+    "mode": "Build Mode",
+    "description": "一组面向战略与平台运营者的来源型数据研究，以纸张质感、层级色彩和物理约束隐喻组织复杂的基础设施叙事。",
+    "path": "assets/ai-infrastructure-economics",
+    "pptx": "downloads/ai_infrastructure_economics.pptx",
+    "pdf": "downloads/ai_infrastructure_economics.pdf",
+    "slides": [
+      {"file":"slide01.png","label":"基础设施账本"},{"file":"slide02.png","label":"价值链"},{"file":"slide03.png","label":"资本流"},{"file":"slide04.png","label":"算力约束"},{"file":"slide05.png","label":"平台层"},{"file":"slide06.png","label":"能源与地点"},{"file":"slide07.png","label":"供给侧"},{"file":"slide08.png","label":"成本结构"},{"file":"slide09.png","label":"竞争位置"},{"file":"slide10.png","label":"风险边界"},{"file":"slide11.png","label":"行动路径"},{"file":"slide12.png","label":"结论"}
+    ]
+  },
+  {
+    "id": "car-t-single-cell-atlas",
+    "title": "Single-Cell CAR T Atlas",
+    "subtitle": "学术研究型 · 从临床持续性到细胞状态假设",
+    "category": "科学叙事",
+    "year": "2026",
+    "direction": "BioTech Blue Research Editorial",
+    "mode": "Build Mode",
+    "description": "基于 Nature 论文的 12 页研究案例，以图证、研究设计和证据边界组织 CAR T 细胞持续性、状态机制与体内验证。",
+    "path": "assets/car-t-single-cell-atlas",
+    "pptx": "downloads/car_t_single_cell_atlas_blue_editorial.pptx",
+    "pdf": "downloads/car_t_single_cell_atlas_blue_editorial.pdf",
+    "slides": [
+      {"file":"slide01.png","label":"研究问题"},{"file":"slide02.png","label":"临床持续性"},{"file":"slide03.png","label":"研究设计"},{"file":"slide04.png","label":"细胞图谱"},{"file":"slide05.png","label":"持续性梯度"},{"file":"slide06.png","label":"2 型状态"},{"file":"slide07.png","label":"候选机制"},{"file":"slide08.png","label":"血清轨迹"},{"file":"slide09.png","label":"体内验证"},{"file":"slide10.png","label":"工程杠杆"},{"file":"slide11.png","label":"证据链"},{"file":"slide12.png","label":"结论与边界"}
+    ]
+  },
+  {
+    "id": "louvre-abudhabi",
+    "title": "Louvre Abu Dhabi",
+    "subtitle": "建筑文化型 · 光、水与博物馆城",
+    "category": "空间叙事",
+    "year": "2026",
+    "direction": "Nocturnal Architectural Editorial",
+    "mode": "Build Mode",
+    "description": "以真实建筑摄影、可编辑几何图形与官方建筑数据组织的 10 页文化建筑案例，呈现 Jean Nouvel 的光、气候与公共空间语言。",
+    "path": "assets/louvre-abudhabi",
+    "pptx": "downloads/louvre_abudhabi_complete.pptx",
+    "pdf": "downloads/louvre_abudhabi_complete.pdf",
+    "slides": [
+      {"file":"slide01.png","label":"封面"},{"file":"slide02.png","label":"光之雨"},{"file":"slide03.png","label":"几何与气候"},{"file":"slide04.png","label":"海上博物馆城"},{"file":"slide05.png","label":"水作为公共空间"},{"file":"slide06.png","label":"热环境"},{"file":"slide07.png","label":"空间序列"},{"file":"slide08.png","label":"材料逻辑"},{"file":"slide09.png","label":"建筑立场"},{"file":"slide10.png","label":"结语"}
+    ]
+  },
+  {
+    "id": "vertical-city-retrofit",
+    "title": "Vertical City Retrofit",
+    "subtitle": "城市策略型 · 在地更新与系统投资",
+    "category": "空间叙事",
+    "year": "2026",
+    "direction": "Warm Architectural Editorial",
+    "mode": "Build Mode",
+    "description": "面向城市更新、建筑与投资决策者的 14 页策略案例，以建筑剖面、系统图、情景数据和治理框架定义高层住宅改造。",
+    "path": "assets/vertical-city-retrofit",
+    "pptx": "downloads/vertical_city_retrofit_style_sample.pptx",
+    "pdf": "downloads/vertical_city_retrofit_style_sample.pdf",
+    "slides": [
+      {"file":"slide01.png","label":"封面"},{"file":"slide02.png","label":"显性问题"},{"file":"slide03.png","label":"五个系统"},{"file":"slide04.png","label":"改造路径"},{"file":"slide05.png","label":"能源约束"},{"file":"slide06.png","label":"共享底层"},{"file":"slide07.png","label":"日常生活"},{"file":"slide08.png","label":"改造类型"},{"file":"slide09.png","label":"在住施工"},{"file":"slide10.png","label":"顺序经济学"},{"file":"slide11.png","label":"决策矩阵"},{"file":"slide12.png","label":"运营模型"},{"file":"slide13.png","label":"36 个月路径"},{"file":"slide14.png","label":"结论"}
+    ]
+  },
+  {
+    "id": "couture-color-objects-of-desire",
+    "title": "COUTURE COLOR",
+    "subtitle": "Luxury Beauty Editorial · Objects of Desire",
+    "category": "视觉叙事",
+    "year": "2026",
+    "direction": "Nocturnal Beauty Editorial",
+    "mode": "Build Mode",
+    "description": "以全屏妆效肖像、同一模特的上妆动作、可编辑产品结构与材质叙事，构成一组 10 页高定口红作品集案例。",
+    "path": "assets/couture-color-objects-of-desire",
+    "pptx": "downloads/couture_color_objects_of_desire.pptx",
+    "pdf": "downloads/couture_color_objects_of_desire.pdf",
+    "slides": [
+      {"file":"slide01.png","label":"Couture Color"},{"file":"slide02.png","label":"The Proposition"},{"file":"slide03.png","label":"Chromatic Wardrobe"},{"file":"slide04.png","label":"Object Grammar"},{"file":"slide05.png","label":"Material Choreography"},{"file":"slide06.png","label":"The Gesture"},{"file":"slide07.png","label":"The Collection"},{"file":"slide08.png","label":"The Ritual"},{"file":"slide09.png","label":"Editorial Release"},{"file":"slide10.png","label":"Coda"}
+    ]
+  }
+]
