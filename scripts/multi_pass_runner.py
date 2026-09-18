@@ -42,7 +42,8 @@ def multi_pass_optimize(
     output_pptx: str,
     theme: str = "swiss",
     render_dir: str = None,
-    max_rounds: int = 3
+    max_rounds: int = 3,
+    notify: bool = True
 ):
     print("=" * 70)
     print("🚀 启动 PPT 多轮自主诊断与美化闭环 (Multi-Pass Self-Calling Loop)")
@@ -115,6 +116,21 @@ def multi_pass_optimize(
     print("=" * 70)
     print(f"🏆 交付产物已成功生成: {output_pptx}\n")
 
+    # -------------------------------------------------------------
+    # Notification: Push task complete to ServerChan (微信通知)
+    # -------------------------------------------------------------
+    if notify:
+        try:
+            from notify_push import notify_task_complete
+            notify_task_complete(
+                task_name=f"PPT多轮自检自修完成 ({os.path.basename(input_pptx)})",
+                project_name="ppt-skills",
+                summary=f"优化主题: {theme}，健康评分从 {baseline['score']} 提升至 {final_audit['score']} 分（满分 100）。",
+                deliverables=[f"已生成成品: {output_pptx}"] + ([f"走查截图目录: {render_dir}"] if render_dir else [])
+            )
+        except Exception as e:
+            print(f"⚠️ 通知推送失败: {e}")
+
 def main():
     parser = argparse.ArgumentParser(description="Multi-pass Autonomous PPT Optimizer")
     parser.add_argument("input_pptx", help="Path to input PPTX")
@@ -122,6 +138,7 @@ def main():
     parser.add_argument("--theme", default="swiss", help="Theme name (swiss, finance, dark-saas, academic, ink, etc.)")
     parser.add_argument("--render-dir", help="Directory to export preview screenshots")
     parser.add_argument("--max-rounds", type=int, default=3, help="Max self-calling iterations (default: 3)")
+    parser.add_argument("--notify", action="store_true", default=True, help="是否在任务完成时发送微信通知 (Server酱)")
     args = parser.parse_args()
 
     multi_pass_optimize(
@@ -129,7 +146,8 @@ def main():
         output_pptx=args.output,
         theme=args.theme,
         render_dir=args.render_dir,
-        max_rounds=args.max_rounds
+        max_rounds=args.max_rounds,
+        notify=args.notify
     )
 
 if __name__ == "__main__":
