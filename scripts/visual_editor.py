@@ -29,6 +29,7 @@ import argparse
 import webbrowser
 from http.server import HTTPServer, SimpleHTTPRequestHandler
 import urllib.parse
+from typing import List, Dict, Any, Optional
 from PIL import Image
 
 try:
