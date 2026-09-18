@@ -56,3 +56,8 @@ desktop.ini
 ~$*.pptx
 ~$*.docx
 ~$*.xlsx
+
+# Private Evolution Vault & Secrets
+.evolution/
+*.private.*
+.sendkey
